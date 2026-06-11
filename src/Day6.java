@@ -1,6 +1,4 @@
-public class Day6{
-     void main(){
+package PACKAGE_NAME;
 
-
-     }
+public class Day6 {
 }
