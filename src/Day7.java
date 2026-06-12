@@ -24,7 +24,7 @@ class LeaveRequest extends Request {
     }
 }
 
-class OnDutyRequest extends Request {
+class  OnDutyRequest extends Request {
     OnDutyRequest(String name, String date, String reason) {
         super(name, date, reason);
     }
