@@ -1,4 +1,44 @@
-package PACKAGE_NAME;
+class Request {
+    String name;
+    String date;
+    String reason;
 
-public class Day7 {
+    Request(String name, String date, String reason) {
+        this.name = name;
+        this.date = date;
+        this.reason = reason;
+    }
+
+    void approve() {
+        System.out.println("Approved");
+    }
+
+    void reject() {
+        System.out.println("Rejected");
+    }
+}
+
+class LeaveRequest extends Request {
+    LeaveRequest(String name, String date, String reason) {
+        super(name, date, reason);
+    }
+}
+
+class OnDutyRequest extends Request {
+    OnDutyRequest(String name, String date, String reason) {
+        super(name, date, reason);
+    }
+}
+
+class day7 {
+    public static void main(String[] args) {
+
+        LeaveRequest l = new LeaveRequest("ARCHANA", "14-06-2026", "Sick Leave");
+        System.out.println(l.name + " " + l.date + " " + l.reason);
+        l.approve();
+
+        OnDutyRequest o = new OnDutyRequest("SUBA", "23-06-2026", "Workshop");
+        System.out.println(o.name + " " + o.date + " " + o.reason);
+        o.reject();
+    }
 }
