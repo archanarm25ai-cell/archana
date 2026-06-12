@@ -1,4 +1,4 @@
-/*public class Day6 {
+public class Day61{
 
     static class Car {
 
@@ -42,8 +42,8 @@
         car.refill();
         car.showFuel();
     }
-}*/
-/*public class Day6{
+}
+public class Day6{
     String name;
     int regNo;
     String dept;
@@ -74,4 +74,4 @@
         Day6 s1 = new Day6("Archana", 12345, "B.Sc Statistics", 90, 85, 95);
         s1.display();
     }
-}*/
+}
