@@ -54,15 +54,15 @@ public class Exersice7 {
 
             Employee emp1 = new BankEmployee("Archana", "S123", 50000);
             Employee emp2 = new CheckingEmployee("Surya", "A102", 45000);
-            System.out.println("--------------------------------");
+            System.out.println("");
             emp1.work();
             System.out.println();
             emp1.solveProblem();
-            System.out.println("--------------------------------");
+            System.out.println("");
             emp2.work();
             System.out.println();
             emp2.solveProblem();
-            System.out.println("--------------------------------");
+            System.out.println("");
 
         }
     }
