@@ -2,7 +2,6 @@ class Request {
     String name;
     String date;
     String reason;
-
     Request(String name, String date, String reason) {
         this.name = name;
         this.date = date;
