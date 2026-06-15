@@ -29,7 +29,8 @@ class  OnDutyRequest extends Request {
     }
 }
 
-class day7 {
+class
+day7 {
     public static void main(String[] args) {
 
         LeaveRequest l = new LeaveRequest("ARCHANA", "14-06-2026", "Sick Leave");

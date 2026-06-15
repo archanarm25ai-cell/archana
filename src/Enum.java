@@ -1,3 +1,4 @@
+
 public class Enum {
     enum LANGUAGE {
         EN("English"),
