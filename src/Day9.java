@@ -32,6 +32,7 @@ public class Day9 {
                 System.out.println("2028 is closing year of department");
                 super.close();
             }
+
         }
 
         public static void main(String[] args) throws Exception {
