@@ -1,14 +1,10 @@
-
-    import java.util.LinkedList;
-
-    public class Studentlist {
+import java.util.LinkedList;
+public class Studentlist {
 
         static void process(LinkedList<String> list) {
             System.out.println("Removed : " + list.removeFirst());
         }
-
         public static void main(String[] args) {
-
             LinkedList<String> list = new LinkedList<>();
             list.add("\n101 - Archana - 85");
             list.add("\n102 - Surya- 92");
