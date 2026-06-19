@@ -1,4 +1,4 @@
-import java.util.LinkedList;
+/*import java.util.LinkedList;
 public class Day10 {
     static void process(LinkedList<String> queue) {
         System.out.println("Removed:" + queue.removeFirst());
@@ -30,7 +30,7 @@ public class Day10 {
         while (list.size() > 1) {
             process(list);
         }
-    }
+    }*/
 
 
 

@@ -1,4 +1,4 @@
-import java.util.LinkedList;
+/*import java.util.LinkedList;
 public class Day11 {
     public static void main(String[] args) {
         LinkedList<String> set = new LinkedList<String>();
@@ -12,5 +12,5 @@ public class Day11 {
         for (String s : set)
             System.out.println(s);
     }
-}
+}*/
 

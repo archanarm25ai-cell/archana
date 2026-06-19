@@ -1,4 +1,4 @@
- void main() {
+/* void main() {
     int[][] marks = new int[5][3];
     int[][] studentsmarks = {
             {78, 90, 34},
@@ -23,9 +23,4 @@
         System.out.println("Average = " + average);
         System.out.println();
     }
-
-
-
-
-
-}
+}*/

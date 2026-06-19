@@ -1,4 +1,4 @@
-class Request {
+/*class Request {
     String name;
     String date;
     String reason;
@@ -41,4 +41,4 @@ day7 {
         System.out.println(o.name + " " + o.date + " " + o.reason);
         o.reject();
     }
-}
+}*/

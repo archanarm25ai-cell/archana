@@ -1,4 +1,4 @@
-public class arithemetic {
+/*public class arithemetic {
     static void main() {
         String name =null;
         try {
@@ -17,5 +17,5 @@ public class arithemetic {
         System.out.println("Still running");
         System.out.println("Name :"+name);
     }
-}
+}*/
 
